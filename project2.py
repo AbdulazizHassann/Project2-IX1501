@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 # 1. Original sample data
 # ------------------------------
 X = np.array([56, 101, 78, 67, 93, 87, 64, 72, 80, 69])
-n = len(X)
 mu_hat = np.mean(X)
 print("Sample mean (mu_hat):", mu_hat)
 
